@@ -1,0 +1,63 @@
+@import "media";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: url("../img/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 310px;
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffffff;
+      padding-top: 60px;
+    }
+    .input-group {
+      input {
+          padding: 21px;
+          border-radius: 12px;
+      }
+      .input-group-append {
+        cursor: pointer;
+        span {
+          padding-left: 20px;
+          width: 50px;
+          background-color: #050545E2;
+          border: 1px solid rgba(3, 3, 54, 0.89);
+          .fas {
+            color: white;
+          }
+        }
+        .button {
+          border-bottom-right-radius: 12px;
+          border-top-right-radius: 12px;
+        }
+      }
+    }
+  .err {
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    margin-left: 41.5%;
+    font-size: 1.2rem;
+  }
+  .list {
+    display: flex;
+    position: relative;
+    z-index: 200;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 9px 24px -4px #636262A8;
+    border-radius: 12px;
+  }
+}
+#mapid {
+  position: relative;
+  z-index: 10;
+  height: 880px;
+}
